@@ -1,4 +1,4 @@
-import { Logger, Module } from '@nestjs/common';
+import { Module } from '@nestjs/common';
 import { DoctorModule } from './modules/doctor/doctor.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { join } from 'path';

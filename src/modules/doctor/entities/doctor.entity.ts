@@ -1,4 +1,3 @@
-import { Optional } from '@nestjs/common';
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 @Entity('doctor')
 export class Doctor {

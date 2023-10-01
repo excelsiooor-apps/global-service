@@ -28,7 +28,7 @@ export class DoctorService {
   }
 
   update(id: number, updateDoctorDto: UpdateDoctorDto) {
-    return `This action updates a #${id} doctor`;
+    return `This action updates a #${id} doctor ${updateDoctorDto}`;
   }
 
   remove(id: number) {
